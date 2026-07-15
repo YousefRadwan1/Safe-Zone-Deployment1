@@ -19,7 +19,7 @@ logger = logging.getLogger("uvicorn.error")
 
 # ===== Config =====
 MODEL_PATH = os.path.join(tempfile.gettempdir(), "best_segformer.pth")
-GDRIVE_FILE_ID = "1lZOWFBteOX9HnE4B82RMTbmLp46-mPhp"  # غيّره لو الـ file id بتاع السيجفورمر مختلف
+GDRIVE_FILE_ID = "1mOS6X2KxIdL-wkj4q-XBPqX-pmDV0WQY"  # غيّره لو الـ file id بتاع السيجفورمر مختلف
 SEGFORMER_BACKBONE = "nvidia/mit-b5"
 NUM_CLASSES = 2
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
