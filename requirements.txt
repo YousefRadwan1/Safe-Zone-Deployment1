@@ -1,10 +1,11 @@
 fastapi
 uvicorn[standard]
+gunicorn
 python-multipart
 opencv-python-headless
 numpy
 Pillow
 torch
 torchvision
-transformers
+transformers==5.0.0
 requests
